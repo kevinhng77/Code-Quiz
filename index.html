@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Code-Quiz</title>
+    <title>Code Quiz</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./assets/style.css">
     <script src="./assets/js.js"></script>
@@ -10,16 +10,18 @@
 <body>
 
     <div class="highscores"> View Highscores</div>
-    <div class="timeleft">Time Left</div>
+    <div class="timeleft">Time Left:</div>
+    <div class="score">Score:</div>
+    <h1>Welcome to the code quiz</h1>
+    <p>this is the code quiz enjoy!</p>
+    <button type="button">Start Quiz</button>
 
     <main>
 
-        <button type="button">Start Quiz</button>
-
         <section class="1st-question">
         <h1>1st question</h1>
-        <ul>
-            <li>Coffee</li>
+        <ul style="list-style-type:none;>
+            <li class="correct-answer">Coffee</li>
             <li>Tea</li>
             <li>Milk</li>
           </ul>
@@ -27,8 +29,8 @@
 
         <section class="2nd-question">
         <h2>2nd question</h2>
-        <ul>
-            <li>Coffee</li>
+        <ul style="list-style-type:none;>
+            <li class="correct-answer">Coffee</li>
             <li>Tea</li>
             <li>Milk</li>
           </ul>
@@ -36,8 +38,8 @@
 
         <section class="3rd-question">
         <h3>3rd question</h3>
-        <ul>
-            <li>Coffee</li>
+        <ul style="list-style-type:none;>
+            <li class="correct-answer">Coffee</li>
             <li>Tea</li>
             <li>Milk</li>
           </ul>
@@ -45,8 +47,8 @@
 
         <section class="4th-question">
         <h4>4th question</h4>
-        <ul>
-            <li>Coffee</li>
+        <ul style="list-style-type:none;>
+            <li class="correct-answer">Coffee</li>
             <li>Tea</li>
             <li>Milk</li>
           </ul>
@@ -57,9 +59,12 @@
         <h5>All Done your final score is</h5>
         </section>
 
-        <section class="Input-Name">
-        <h6>input your name and score</h6>
-        </section>
+        <form class="Input-Name">
+        <h6>Your Final Score is:</h6>
+        <label for="fname">Your Name:</label>
+        <input type="text" id="fname"><br><br>
+        <button type="button">Submit</button>
+        </form>
 
 
 
