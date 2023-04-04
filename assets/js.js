@@ -1,7 +1,9 @@
-var timeEl = document.querySelector(".timeLeft");
-var totalScore= 0;
+var timeEl = document.querySelector(".timeleft");
 var questions = document.getElementById("questionsList");
+var startButton= document.getElementById(".startButton2");
 var counter= 0;
+var totalScore= 0;
+var secondsLeft= 60;
 
 var questionsArray = [
     {
@@ -12,6 +14,7 @@ var questionsArray = [
         answerD: "answerD",
         answer: "answerA"
     },
+
     {
         question: "question2",
         answerA: "answere",
@@ -31,7 +34,12 @@ var questionsArray = [
 
 ]
 
-console.log(questionsArray[0][2]);
+startButton.addEventListener("click", function(){
+    console.log("2");
+});
+
+
+// console.log(questionsArray[0][2]);
 
 function startQuiz(){
     pass
@@ -39,10 +47,10 @@ function startQuiz(){
 
 function timeCountDown(){
     pass
+
 }
 
 function quizScore(){
-    // allAnswers.addEventListener("click", addScore);
     pass
 }
 
@@ -54,3 +62,4 @@ function addScore(){
 function rightOrWrong(){
     pass
 }
+
