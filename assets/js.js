@@ -1,9 +1,9 @@
 var timeEl = document.querySelector(".timeleft");
 var questions = document.getElementById("questionsList");
-var startButton= document.getElementById(".startButton2");
+var startButton= document.getElementById("startButton2");
 var counter= 0;
 var totalScore= 0;
-var secondsLeft= 60;
+var secondsLeft= 5;
 
 var questionsArray = [
     {
@@ -35,18 +35,23 @@ var questionsArray = [
 ]
 
 startButton.addEventListener("click", function(){
-    console.log("2");
+    console.log(10);
 });
 
-
-// console.log(questionsArray[0][2]);
 
 function startQuiz(){
     pass
 }
 
 function timeCountDown(){
-    pass
+    
+    var timerInterval = setInterval(function() {
+        secondsLeft--;
+        timeEl.textContent = secondsLeft + " seconds left"
+        if(secondsLeft === 0) {
+            clearInterval(timerInterval);
+            timeEl.textContent = "You Lose";
+    }} ,1000 );
 
 }
 
@@ -63,3 +68,4 @@ function rightOrWrong(){
     pass
 }
 
+timeCountDown();
