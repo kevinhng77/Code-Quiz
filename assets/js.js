@@ -34,13 +34,12 @@ var questionsArray = [
 
 ]
 
-startButton.addEventListener("click", function(){
-    console.log(10);
-});
-
+for (let i=0; i < questionsArray.length; i++){
+    console.log(questionsArray[i]);
+}
 
 function startQuiz(){
-    pass
+    startButton.addEventListener("click", gameOn());
 }
 
 function timeCountDown(){
@@ -52,8 +51,10 @@ function timeCountDown(){
             clearInterval(timerInterval);
             timeEl.textContent = "You Lose";
     }} ,1000 );
-
 }
+
+
+
 
 function quizScore(){
     pass

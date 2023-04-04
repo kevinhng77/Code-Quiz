@@ -1,89 +1,44 @@
-# 04 Web APIs: Code Quiz
+# Code-Quiz
 
-## Your Task
+## Description 
 
-At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
+This is a project that tests my skills in terms of combining a lot of the things that we've been learning for the past two weeks. Although this project is mainly Javascript focused, there are a lot of things that the CSS and HTML are still needed for. For example, if you were to just look at the backbone of the structure of the quiz, then it is all HTML. The HTML provides the skeleton for how the site needs to work. However, one important distinction is that this is way more Javascript focused, meaning that there will be more emphasis on isolating the variables. Compared to the other projects, where we can alter the states within the HTML file or the CSS file, the Javascript file allows us to isolate variables individually, and that is super important when it comes to wanting custom things done for the page.
 
-To help familiarize you with these tests and allow you to use the skills covered in this unit, this week’s challenge invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. 
+[Finished Website](https://kevinhng77.github.io/Code-Quiz/)
+[Github Repo](https://github.com/kevinhng77/Code-Quiz)
 
-This week’s coursework will equip you with all the skills you need to succeed in this assignment.
 
-## User Story
+## Installation
 
-```
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
+First, by cloning the repository down to your computer, you can copy down the existing index.html file. Next, open it up with GitBash and type in "code ." , which should open up VSCode. From there, there were a lot of errors and things that needed to be fixed, which will be went over in the next section.
 
-## Acceptance Criteria
 
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and my score
-```
+## Usage 
 
-## Mock-Up
+Looking at the top of the page, there should be a timer that counts down. As you begin to start the quiz, it will start counting down, and the objective of this game is to answer as many correct answers as possible before the timer runs out. It is important to know this because if you were to answer the question incorrectly, then you will get punished by the time running down.
 
-The following animation demonstrates the application functionality:
 
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/04-web-apis-challenge-demo.gif)
+## Credits
 
-## Grading Requirements
+Special shoutout to TA Kyle Vance for assisting me with this project. He helped me learn the structure in which files should be presented in Github, as well as figure out some things about how variables and things work in Javascript.
 
-This challenge is graded based on the following criteria: 
 
-### Technical Acceptance Criteria: 40%
+## License
 
-* Satisfies all of the preceding acceptance criteria.
+N/A
 
-### Deployment: 32%
+## Badges
 
-* Application deployed at live URL.
+N/A
 
-* Application loads with no errors.
+## Features
 
-* Application GitHub URL submitted.
+N/A
 
-* GitHub repository contains application code.
+## Contributing
 
-### Application Quality: 15%
+N/A
 
-* Application user experience is intuitive and easy to navigate.
+## Tests
 
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
----
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+N/A
